@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -65,92 +63,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.nav-bar {
-	
-	width: 100%;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	margin-bottom: 50px;
-}
-
-a {
-	text-decoration: none;
-	color: gray;
-}
-
-.navigation {
-	
-	width: 60%;
-	display: flex;
-	justify-content: space-between;
-}
-
-.img1 {
-	display: flex;
-	justify-content: flex-end;
-}
-
-.header {
-	display: flex;
-	flex-wrap: nowrap;
-	align-items: center;
-	border-bottom: 2px solid black;
-	padding-bottom: 50px;
-
-}
-
-.d1 {
-	font-size: 75px;
-	width: 45%;
-	text-align: center;
-}
-
-.d2 {
-	display: flex;
-	width: 45%;
-	justify-content: flex-end;
-}
-
-.top-content {
-	display: flex;
-	justify-content: space-evenly;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.paragraph1 {
-	padding-right: 50px;
-}
-
-.middle-img {
-	width: 100%;
-}
-
-.bottom-content {
-	display: flex;
-	justify-content: space-evenly;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	border-bottom: 2px solid black;
-}
-
-.contactInfo {
-	padding-top: 50px;
-	padding-bottom: 20px;
-
-}
-
-.phone {
-	padding-bottom: 20px;
-    
-}
-
-
-.copyright {
-    
-    width: 100%;
-	text-align: center;
-	padding-top: 50px;
+ul {
+    list-style-type: square;
 }
